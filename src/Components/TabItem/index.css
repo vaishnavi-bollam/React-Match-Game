@@ -1,0 +1,23 @@
+/* TabItem/index.css */
+
+.liTabItemContainer {
+  padding: 4px;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+}
+.borderStyle {
+  border-bottom: 2px solid #fec653;
+}
+
+.tabItemBtn {
+  background-color: transparent;
+  border-color: transparent;
+  font-family: Roboto;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.textStyle {
+  color: #fec653;
+}

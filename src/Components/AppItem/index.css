@@ -1,0 +1,30 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  font-family: Bree Serif;
+}
+
+.tabItemImage {
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.itemName {
+  text-align: center;
+}
+
+.liTabContainer {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.thumbnailBtn {
+  background-color: transparent;
+  border: 0px solid transparent;
+  cursor: pointer;
+}

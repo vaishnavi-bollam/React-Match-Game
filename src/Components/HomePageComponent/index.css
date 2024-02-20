@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  font-family: Roboto;
+  color: white;
+}
+
+.bg {
+  border: 0px solid transparent;
+  min-height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.websiteLogoImage {
+  width: 200px;
+}
+
+.timerLogoImage {
+  height: 20px;
+  width: 20px;
+  margin-left: 12px;
+  margin-right: 4px;
+}
+
+.scoreNdTimeContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2c0e3a;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  align-self: stretch;
+}
+
+.yellowText {
+  color: #fec653;
+  font-weight: bold;
+  font-size: large;
+}
+
+.imageToBeMatchedStyle {
+  width: 90%;
+}
+
+.ulTabsContainer {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.ulTabItems {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.gameOverContainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+  min-height: 100vh;
+  background-size: cover;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem;
+  width: 90%;
+}
+
+.trophyStyle {
+  height: 260px;
+  width: 430px;
+}
+
+.btnPlayStyle {
+  background-color: #cf60c8;
+  border: 0px solid transparent;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
